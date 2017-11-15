@@ -1,26 +1,37 @@
-/* contact form */
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<!-- Meta tags for search engine optimisation-->
-		<meta charset="utf-8";name="viewport" content="width=device-width, initial-scale=1.0">
 		
-	</head>
+		<meta charset="utf-8";name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+		<body>
+<!--Begin Contact form -->		
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Contact Form</h3>
+    <h4>Contact us</h4>
 	
-	<body>
-
-	/*
-Contact FROM
-
-NAME : 
-Email:
-Subject:
-Message: Text field	
-
-
-Button [clear] [send]	
+	<!--Contact Form Inputs -->
+    <fieldset>
+      <input placeholder="Your name" type="text" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Type your message here...." type="text" required>
+    </fieldset>
+    <fieldset>
 	
-	*/
-	
+	<!--Submissions -->
+      <button name="submit" type="submit" id="contact-submit">Submit</button>
+    </fieldset>
+   
+  </form>
+</div>
 	</body>
+</html>
