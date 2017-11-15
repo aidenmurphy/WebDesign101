@@ -1,3 +1,23 @@
+
+.logo {
+  /*top: 50%;
+  left: 50%; */
+  align: center
+  /*bring your own prefixes */
+  	}
+	
+	.main_div{
+
+    margin-bottom:40px;
+    margin-top:40px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: red;
+}
+	
 .footer-distributed{
 	background-color: black;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -34,8 +54,8 @@ p {
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	background-color:  blue;
-	width: 30%;
+	/*background-color:  ; */
+	width: 25%;
 }
 
 /*.footer-distributed .footer-center {
@@ -58,10 +78,37 @@ footer-distributed .footer-right{
 }
 */
 .footer-distributed .footer-right {
-	background-color:  red;
-	width: 25%;
-	margin-left: 100px;
-	/*padding-left: 60px; */
-	line-height: 42px;
-	vertical-align: right;
+	/* background-color:  red; */
+	width: 20%;
+	margin-left: 300px;
+	padding-left: 0px;
+	/*line-height: 42px;*/
+	vertical-align: align-right;
+}
+
+
+.topnav {
+  border-radius: 15px 15px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
